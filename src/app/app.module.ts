@@ -15,14 +15,10 @@ import { CriarPensamentoComponent } from './componentes/pensamentos/criar-pensam
     CabecalhoComponent,
     RodapeComponent,
     HomeComponent,
-    CriarPensamentoComponent
+    CriarPensamentoComponent,
   ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule,
-    FormsModule
-  ],
+  imports: [BrowserModule, AppRoutingModule, FormsModule],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
