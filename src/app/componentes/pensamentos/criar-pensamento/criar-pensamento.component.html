@@ -25,7 +25,7 @@
     <div class="container-radio">
       <div class="radio-modelo">
         <label for="modelo1">
-          <input type="radio" name="modelo1" id="modelo1" value="modelo1" />
+          <input type="radio" name="modelo" id="modelo1" value="modelo1" />
           <div class="custom-radio"><span></span></div>
           <span>Modelo 1</span>
         </label>
@@ -40,7 +40,7 @@
       </div>
       <div class="radio-modelo">
         <label for="modelo2">
-          <input type="radio" name="modelo2" id="modelo2" value="modelo2" />
+          <input type="radio" name="modelo" id="modelo2" value="modelo2" />
           <div class="custom-radio"><span></span></div>
           <span>Modelo 2</span>
         </label>
@@ -58,7 +58,7 @@
       </div>
       <div class="radio-modelo">
         <label for="modelo3">
-          <input type="radio" name="modelo3" id="modelo3" value="modelo3" />
+          <input type="radio" name="modelo" id="modelo3" value="modelo3" />
           <div class="custom-radio"><span></span></div>
           <span>Modelo 3</span>
         </label>
@@ -76,8 +76,8 @@
       </div>
     </div>
     <div class="acoes">
-      <button class="botao">Salvar</button>
-      <button class="botao">Cancelar</button>
+      <button (click)="criarPensamento()" class="botao">Salvar</button>
+      <button (click)="cancelarForm()" class="botao">Cancelar</button>
     </div>
   </form>
 </section>
