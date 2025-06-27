@@ -7,9 +7,9 @@ import { Component, Input, OnInit } from '@angular/core';
 })
 export class PensamentoComponent implements OnInit {
   @Input() pensamento = {
-    conteudo: 'I love Angular',
-    autoria: 'Robert Alexandre',
-    modelo: 'modelo2',
+    conteudo: '',
+    autoria: '',
+    modelo: '',
   };
   constructor() {}
 
