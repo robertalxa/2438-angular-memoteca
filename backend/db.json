@@ -1,0 +1,22 @@
+{
+  "pensamentos": [
+    {
+      "id": 1,
+      "conteudo": "I got loyalty, got royalty inside my DNA. Cocaine quarter piece, got war and piece inside my DNA.",
+      "autoria": "Kendrick Lamar",
+      "modelo": "modelo1"
+    },
+    {
+      "id": 2,
+      "conteudo": "Why do they always send the poor?",
+      "autoria": "System Of a Down",
+      "modelo": "modelo2"
+    },
+    {
+      "id": 3,
+      "conteudo": "I was taking a walk the other day, and I've seen a woman, a blind woman, pacin up an down the sidewalk, after watching her struggle for a while, I decided to over and land a helping hande you know? Hello Ma'am, can I be of any assistance? It seems to me that you've lost something, having a hard time finding it. She replied: Oh yes, you have lost something. You've lost, your life.",
+      "autoria": "Kendrick Lamar",
+      "modelo": "modelo3"
+    }
+  ]
+}
